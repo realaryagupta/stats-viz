@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 from scipy.stats import norm, bernoulli, binom, poisson, expon, gamma, beta, uniform, lognorm
 
 st.set_page_config(page_title="Distribution Explorer", layout="centered")
-st.title("📊 Probability Distribution Visualizer (Plotly + Light Green Theme)")
+st.title("Probability Distribution Visualizer")
 
 # --- Sidebar ---
 dist = st.sidebar.selectbox("Choose a Distribution", [
